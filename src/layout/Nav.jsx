@@ -20,7 +20,7 @@ export const Nav = () => {
             <Box
                 sx={{
                     paddingRight: '2rem',
-                    color: '#FFFFFF',
+                    color: '#6F2232',
                     fontSize: 20,
                     fontFamily: 'monospace',
                     fontStyle: 'oblique',
@@ -28,7 +28,13 @@ export const Nav = () => {
             >
                 <Stack
                     direction='row'
-                    divider={<Divider orientation='vertical' flexItem />}
+                    divider={
+                        <Divider
+                            orientation='vertical'
+                            flexItem
+                            color='#4E4E50'
+                        />
+                    }
                     spacing={2}
                 >
                     <li style={{ listStyleType: 'none' }}>home</li>

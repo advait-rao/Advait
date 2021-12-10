@@ -37,7 +37,6 @@ const About = (props) => {
                     borderRadius: 1,
                 }}
             >
-                <Box sx={{ width: '50%' }}>left text</Box>
                 <Box sx={{ width: '50%' }}>right text</Box>
             </Box>
         </Box>

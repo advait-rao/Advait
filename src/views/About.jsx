@@ -34,10 +34,14 @@ const About = (props) => {
                     fontWeight: 'regular',
                     width: '50%',
                     backgroundColor: '#4E4E50',
-                    borderRadius: 1,
                 }}
             >
-                <Box sx={{ width: '50%' }}>left text</Box>
+                <Box sx={{ width: '50%' }}>
+                    <Box sx={{ width: '50%' }}>
+                        <img src='' alt='some image'></img>
+                        left text
+                    </Box>
+                </Box>
                 <Box sx={{ width: '50%' }}>right text</Box>
             </Box>
         </Box>
