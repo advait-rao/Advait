@@ -7,6 +7,7 @@ const Home = (props) => {
             sx={{
                 height: '95vh',
                 backgroundColor: '#1A1A1D',
+                flexDirection: 'column',
             }}
         >
             <Box

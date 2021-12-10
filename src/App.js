@@ -3,6 +3,7 @@ import Footer from './layout/Footer';
 import Nav from './layout/Nav';
 import Home from './views/Home';
 import About from './views/About';
+import Contact from './views/Contact';
 
 function App() {
     return (
@@ -14,6 +15,7 @@ function App() {
             <Nav />
             <Home />
             <About />
+            <Contact />
             <Footer />
         </Box>
     );
