@@ -20,8 +20,9 @@ export const Nav = () => {
             <Box
                 sx={{
                     paddingRight: '2rem',
-                    color: '#6F2232',
+                    color: '#FFFFFF',
                     fontSize: 20,
+                    fontFamily: 'monospace',
                     fontStyle: 'oblique',
                 }}
             >
@@ -30,9 +31,9 @@ export const Nav = () => {
                     divider={<Divider orientation='vertical' flexItem />}
                     spacing={2}
                 >
-                    <li style={{ listStyleType: 'none' }}>Home</li>
-                    <li style={{ listStyleType: 'none' }}>About</li>
-                    <li style={{ listStyleType: 'none' }}>Contact</li>
+                    <li style={{ listStyleType: 'none' }}>home</li>
+                    <li style={{ listStyleType: 'none' }}>about_me</li>
+                    <li style={{ listStyleType: 'none' }}>contact</li>
                 </Stack>
             </Box>
         </Box>
