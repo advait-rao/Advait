@@ -56,7 +56,7 @@ const About = (props) => {
                 >
                     <p>
                         Hi! <br />
-                        I'm Advait (Ad•vai•t).
+                        I'm Advait (Ad•vāi•t).
                     </p>
                     <p>
                         I'm a Computer Science and IT Management student at the

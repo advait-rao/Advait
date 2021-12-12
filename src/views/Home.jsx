@@ -35,7 +35,7 @@ const Home = (props) => {
                     fontFamily: 'monospace',
                 }}
             >
-                Software Engineer_
+                Software Engineer<i className='blink'>_</i>
             </Box>
             <Box
                 display={'flex'}
@@ -51,6 +51,7 @@ const Home = (props) => {
                     style={{ color: '#4E4E50' }}
                 >
                     <GitHubIcon
+                        className='icon'
                         fontSize='large'
                         sx={{
                             marginRight: '4rem',
@@ -64,6 +65,7 @@ const Home = (props) => {
                     style={{ color: '#4E4E50' }}
                 >
                     <LinkedInIcon
+                        className='icon'
                         fontSize='large'
                         sx={{
                             marginRight: '4rem',
@@ -72,6 +74,7 @@ const Home = (props) => {
                 </a>
 
                 <EmailRoundedIcon
+                    className='icon'
                     fontSize='large'
                     sx={{
                         marginRight: '4rem',

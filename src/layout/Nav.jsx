@@ -8,13 +8,15 @@ import { styled } from '@mui/material/styles';
 export const Nav = () => {
     return (
         <Box
+            className='navbar'
             sx={{
                 width: '100%',
                 minHeight: '5vh',
-                backgroundColor: '#030C17',
+                backgroundColor: '#061324',
                 display: 'flex',
                 justifyContent: 'right',
                 alignItems: 'center',
+                opacity: '50%',
             }}
         >
             <Box
@@ -36,9 +38,15 @@ export const Nav = () => {
                     }
                     spacing={2}
                 >
-                    <li style={{ listStyleType: 'none' }}>Home</li>
-                    <li style={{ listStyleType: 'none' }}>About</li>
-                    <li style={{ listStyleType: 'none' }}>Contact</li>
+                    <li className='Nav' style={{ listStyleType: 'none' }}>
+                        Home
+                    </li>
+                    <li className='Nav' style={{ listStyleType: 'none' }}>
+                        About
+                    </li>
+                    <li className='Nav' style={{ listStyleType: 'none' }}>
+                        Contact
+                    </li>
                 </Stack>
             </Box>
         </Box>
