@@ -1,4 +1,4 @@
-import { Box } from '@mui/system';
+import { Box, color } from '@mui/system';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
@@ -10,26 +10,27 @@ const Home = (props) => {
         <Box
             sx={{
                 height: '95vh',
-                backgroundColor: '#1A1A1D',
+                backgroundColor: '#061324',
                 flexDirection: 'column',
             }}
         >
             <Box
                 sx={{
-                    color: '#C3073F',
+                    color: '#950740',
                     fontSize: '13vh',
                     paddingLeft: '17vw',
                     paddingTop: '20vh',
                     fontWeight: 'Bold',
                 }}
             >
-                Advait
+                Advait Rao
             </Box>
             <Box
                 sx={{
                     color: '#FFFFFF',
                     fontSize: '3vh',
                     paddingLeft: '17vw',
+                    paddingTop: '1rem',
                     fontStyle: 'oblique',
                     fontFamily: 'monospace',
                 }}
@@ -39,26 +40,41 @@ const Home = (props) => {
             <Box
                 display={'flex'}
                 flexDirection={'row'}
-                color={'#950740'}
+                color={'#4E4E50'}
                 paddingLeft={'17vw'}
                 paddingTop={'2rem'}
             >
-                <GitHubIcon
-                    fontSize='large'
-                    sx={{
-                        marginRight: '4%',
-                    }}
-                />
-                <LinkedInIcon
-                    fontSize='large'
-                    sx={{
-                        marginRight: '4%',
-                    }}
-                />
+                <a
+                    href='https://github.com/advait-rao'
+                    target='_blank'
+                    rel='noreferrer'
+                    style={{ color: '#4E4E50' }}
+                >
+                    <GitHubIcon
+                        fontSize='large'
+                        sx={{
+                            marginRight: '4rem',
+                        }}
+                    />
+                </a>
+                <a
+                    href='https://www.linkedin.com/in/advaitrao/'
+                    target='_blank'
+                    rel='noreferrer'
+                    style={{ color: '#4E4E50' }}
+                >
+                    <LinkedInIcon
+                        fontSize='large'
+                        sx={{
+                            marginRight: '4rem',
+                        }}
+                    />
+                </a>
+
                 <EmailRoundedIcon
                     fontSize='large'
                     sx={{
-                        marginRight: '4%',
+                        marginRight: '4rem',
                     }}
                 />
             </Box>
@@ -67,12 +83,12 @@ const Home = (props) => {
                     display: 'flex',
                     flexDirection: 'column',
                     alignItems: 'center',
-                    justifyItems: 'center',
-                    marginTop: '30vh',
+                    marginTop: '20vh',
                 }}
             >
                 <KeyboardArrowDownIcon
-                    sx={{ fontSize: 128, color: '#950740' }}
+                    className='bounce'
+                    sx={{ fontSize: '15vh', color: '#950740' }}
                 />
             </Box>
         </Box>

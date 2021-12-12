@@ -4,7 +4,7 @@ import Nav from './layout/Nav';
 import Home from './views/Home';
 import About from './views/About';
 import Contact from './views/Contact';
-
+import './App.css';
 function App() {
     return (
         <Box

@@ -6,7 +6,7 @@ const About = (props) => {
         <Box
             sx={{
                 height: '95vh',
-                backgroundColor: '#1A1A1D',
+                backgroundColor: '#061324',
                 display: 'flex',
                 alignItems: 'center',
                 justifyItems: 'left',
@@ -18,8 +18,9 @@ const About = (props) => {
                     marginTop: '10vh',
                     fontSize: 64,
                     fontWeight: 'bold',
-                    color: '#6F2232',
-                    backgroundColor: '#1A1A1D',
+                    color: '#061324',
+                    backgroundColor: '#950740',
+                    borderRadius: 1,
                 }}
             >
                 Get in touch
@@ -33,11 +34,11 @@ const About = (props) => {
                     height: '60%',
                     fontWeight: 'regular',
                     width: '50%',
-                    backgroundColor: '#6F2232',
+                    backgroundColor: '#030C17',
                     borderRadius: 1,
                 }}
             >
-                <Box sx={{ width: '50%' }}>right text</Box>
+                <Box sx={{ width: '50%' }}>Nice try, insurance salesman</Box>
             </Box>
         </Box>
     );

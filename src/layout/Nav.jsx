@@ -11,7 +11,7 @@ export const Nav = () => {
             sx={{
                 width: '100%',
                 minHeight: '5vh',
-                backgroundColor: '#1A1A1D',
+                backgroundColor: '#030C17',
                 display: 'flex',
                 justifyContent: 'right',
                 alignItems: 'center',
@@ -23,7 +23,6 @@ export const Nav = () => {
                     color: '#6F2232',
                     fontSize: 20,
                     fontFamily: 'monospace',
-                    fontStyle: 'oblique',
                 }}
             >
                 <Stack
@@ -37,9 +36,9 @@ export const Nav = () => {
                     }
                     spacing={2}
                 >
-                    <li style={{ listStyleType: 'none' }}>home</li>
-                    <li style={{ listStyleType: 'none' }}>about_me</li>
-                    <li style={{ listStyleType: 'none' }}>contact</li>
+                    <li style={{ listStyleType: 'none' }}>Home</li>
+                    <li style={{ listStyleType: 'none' }}>About</li>
+                    <li style={{ listStyleType: 'none' }}>Contact</li>
                 </Stack>
             </Box>
         </Box>

@@ -1,25 +1,28 @@
-import { Box, height } from '@mui/system';
+import { Box } from '@mui/system';
+import { Avatar } from '@mui/material';
 import PropTypes from 'prop-types';
+import me from './meCropped.jpg';
 
 const About = (props) => {
     return (
         <Box
             sx={{
                 height: '100vh',
-                backgroundColor: '#6F2232',
+                backgroundColor: '#061324',
                 display: 'flex',
                 alignItems: 'center',
-                justifyItems: 'left',
                 flexDirection: 'column',
             }}
         >
             <Box
                 sx={{
-                    marginTop: '10vh',
+                    marginTop: '5vh',
                     fontSize: 64,
                     fontWeight: 'bold',
-                    color: '#6F2232',
-                    backgroundColor: '#1A1A1D',
+                    color: '#061324',
+                    backgroundColor: '#950740',
+                    borderRadius: 1,
+                    justifyContent: 'Center',
                 }}
             >
                 About me
@@ -30,19 +33,48 @@ const About = (props) => {
                     padding: '2rem',
                     display: 'flex',
                     fontSize: 24,
-                    height: '60%',
+                    height: 'auto',
                     fontWeight: 'regular',
                     width: '50%',
-                    backgroundColor: '#4E4E50',
+                    backgroundColor: '#030C17',
+                    borderRadius: 1,
+                    justifyContent: 'space-evenly',
+                    alignItems: 'center',
                 }}
             >
-                <Box sx={{ width: '50%' }}>
-                    <Box sx={{ width: '50%' }}>
-                        <img src='' alt='some image'></img>
-                        left text
-                    </Box>
+                <Avatar src={me} sx={{ width: '35vh', height: '35vh' }} />
+
+                <Box
+                    sx={{
+                        width: 'auto',
+                        color: '#FFFFFF',
+                        fontWeight: 'medium',
+                        fontFamily: 'monospace',
+                        fontSize: '2vh',
+                        margin: '2rem',
+                    }}
+                >
+                    <p>
+                        Hi! <br />
+                        I'm Advait (Ad•vai•t).
+                    </p>
+                    <p>
+                        I'm a Computer Science and IT Management student at the
+                        University of Auckland.
+                    </p>
+                    <p>
+                        When I'm not writing code, I like to write and record
+                        songs, watch sports (cricket, formula1 and football) and
+                        make sigma male meme references. <br /> I also like
+                        going to the gym and making #gains.
+                    </p>
+                    <p>
+                        Jokes apart, I want my time here to be spent creating
+                        value and having a positive impact on the people I meet
+                        (and even the people I don't). <br />
+                        Everything I do is to further this ambition.
+                    </p>
                 </Box>
-                <Box sx={{ width: '50%' }}>right text</Box>
             </Box>
         </Box>
     );
