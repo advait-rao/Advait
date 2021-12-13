@@ -16,7 +16,7 @@ export const Nav = () => {
                 display: 'flex',
                 justifyContent: 'right',
                 alignItems: 'center',
-                opacity: '50%',
+                opacity: '70%',
             }}
         >
             <Box
