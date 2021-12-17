@@ -2,7 +2,6 @@ import React from 'react';
 import { Box } from '@mui/system';
 import Divider from '@mui/material/Divider';
 import Stack from '@mui/material/Stack';
-import { Link } from 'react-router-dom';
 
 export const Nav = () => {
     return (
@@ -38,7 +37,7 @@ export const Nav = () => {
                     spacing={2}
                 >
                     <li className='Nav' style={{ listStyleType: 'none' }}>
-                        <a href='/'>Home</a>
+                        <a href='#home'>Home</a>
                     </li>
                     <li className='Nav' style={{ listStyleType: 'none' }}>
                         <a href='#about'>About</a>

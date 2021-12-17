@@ -33,6 +33,7 @@
 
 .Nav:hover {
     color: #ffffff;
+    font-weight: bolder;
 }
 
 a:link {

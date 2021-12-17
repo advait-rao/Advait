@@ -1,10 +1,8 @@
-import { Box, color } from '@mui/system';
-import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+import { Box } from '@mui/system';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import EmailRoundedIcon from '@mui/icons-material/EmailRounded';
 import PropTypes from 'prop-types';
-import About from './About';
 import ArrowDown from '../components/ArrowDown';
 
 const Home = (props) => {
@@ -15,7 +13,7 @@ const Home = (props) => {
                 backgroundColor: '#061324',
                 flexDirection: 'column',
             }}
-            id=''
+            id='home'
         >
             <Box
                 sx={{
