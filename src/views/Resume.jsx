@@ -1,30 +1,31 @@
-import { Box, height } from '@mui/system';
+import { Box } from '@mui/system';
 import PropTypes from 'prop-types';
+import ArrowDown from '../components/ArrowDown';
 
-const About = (props) => {
+const Resume = (props) => {
     return (
         <Box
             sx={{
-                height: '95vh',
+                height: '100vh',
                 backgroundColor: '#061324',
                 display: 'flex',
                 alignItems: 'center',
-                justifyItems: 'left',
                 flexDirection: 'column',
             }}
-            id='contact'
+            id='resume'
         >
             <Box
                 sx={{
-                    marginTop: '10vh',
+                    marginTop: '5vh',
                     fontSize: 64,
                     fontWeight: 'bold',
                     color: '#061324',
                     backgroundColor: '#950740',
                     borderRadius: 1,
+                    justifyContent: 'Center',
                 }}
             >
-                Get in touch
+                Resume
             </Box>
             <Box
                 sx={{
@@ -32,19 +33,22 @@ const About = (props) => {
                     padding: '2rem',
                     display: 'flex',
                     fontSize: 24,
-                    height: '60%',
+                    height: 'auto',
                     fontWeight: 'regular',
                     width: '50%',
                     backgroundColor: '#101B2B',
-                    borderRadius: 1,
+                    borderRadius: 2,
+                    justifyContent: 'space-evenly',
+                    alignItems: 'center',
                 }}
             >
-                <Box sx={{ width: '50%' }}>Nice try, insurance salesman</Box>
+                Resume go brr...
             </Box>
+            <ArrowDown link='#contact' />
         </Box>
     );
 };
 
-About.propTypes = {};
+Resume.propTypes = {};
 
-export default About;
+export default Resume;

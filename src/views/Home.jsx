@@ -4,6 +4,8 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import EmailRoundedIcon from '@mui/icons-material/EmailRounded';
 import PropTypes from 'prop-types';
+import About from './About';
+import ArrowDown from '../components/ArrowDown';
 
 const Home = (props) => {
     return (
@@ -13,6 +15,7 @@ const Home = (props) => {
                 backgroundColor: '#061324',
                 flexDirection: 'column',
             }}
+            id=''
         >
             <Box
                 sx={{
@@ -31,8 +34,7 @@ const Home = (props) => {
                     fontSize: '3vh',
                     paddingLeft: '17vw',
                     paddingTop: '1rem',
-                    fontStyle: 'oblique',
-                    fontFamily: 'monospace',
+                    fontFamily: 'Source Code Pro',
                 }}
             >
                 Software Engineer<i className='blink'>_</i>
@@ -81,19 +83,7 @@ const Home = (props) => {
                     }}
                 />
             </Box>
-            <Box
-                sx={{
-                    display: 'flex',
-                    flexDirection: 'column',
-                    alignItems: 'center',
-                    marginTop: '20vh',
-                }}
-            >
-                <KeyboardArrowDownIcon
-                    className='bounce'
-                    sx={{ fontSize: '15vh', color: '#950740' }}
-                />
-            </Box>
+            <ArrowDown link='#about' mt='20vh' />
         </Box>
     );
 };

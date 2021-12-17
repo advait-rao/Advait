@@ -35,6 +35,16 @@
     color: #ffffff;
 }
 
-.navbar {
-    position: fixed; /* Make it stick/fixed */
+a:link {
+    text-decoration: none;
+    color: #6f2232;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #6f2232;
+}
+
+a:hover {
+    color: #ffffff;
 }

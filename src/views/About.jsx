@@ -2,6 +2,7 @@ import { Box } from '@mui/system';
 import { Avatar } from '@mui/material';
 import PropTypes from 'prop-types';
 import me from './meCropped.jpg';
+import ArrowDown from '../components/ArrowDown';
 
 const About = (props) => {
     return (
@@ -13,6 +14,7 @@ const About = (props) => {
                 alignItems: 'center',
                 flexDirection: 'column',
             }}
+            id='about'
         >
             <Box
                 sx={{
@@ -36,8 +38,8 @@ const About = (props) => {
                     height: 'auto',
                     fontWeight: 'regular',
                     width: '50%',
-                    backgroundColor: '#030C17',
-                    borderRadius: 1,
+                    backgroundColor: '#101B2B',
+                    borderRadius: 2,
                     justifyContent: 'space-evenly',
                     alignItems: 'center',
                 }}
@@ -48,10 +50,9 @@ const About = (props) => {
                     sx={{
                         width: 'auto',
                         color: '#FFFFFF',
-                        fontWeight: 'medium',
-                        fontFamily: 'monospace',
                         fontSize: '2vh',
                         margin: '2rem',
+                        fontFamily: 'Source Code Pro',
                     }}
                 >
                     <p>
@@ -76,6 +77,7 @@ const About = (props) => {
                     </p>
                 </Box>
             </Box>
+            <ArrowDown link='#resume' />
         </Box>
     );
 };

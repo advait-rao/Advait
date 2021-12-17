@@ -2,12 +2,11 @@
 
 > This is my portfolio
 
-#### I built this website with `React` and `Material ui`
+#### I'm building this website with `React` and `Material ui`
 
 #### Colour Scheme:
 
--   #1A1A1D
--   #4E4E50
--   #6F2232
--   #950740
--   #C3073F
+-   #061324 - Background color
+-   #950740 - Pink for the title
+-   #101B2B - Lighter blue for cards
+-   #4E4E50 - Grey
