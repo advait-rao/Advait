@@ -14,10 +14,10 @@ I'm building this website with `React` and `Material UI`
 
 This is what I'm the most proud of
 
--   #061324 - Background color
--   #950740 - Pink for the title
--   #101B2B - Lighter blue for cards
--   #4E4E50 - Grey
+-   `#061324` - Background color
+-   `#950740` - Pink for the title
+-   `#101B2B` - Lighter blue for cards
+-   `#4E4E50` - Grey
 
 ## Hosting
 
