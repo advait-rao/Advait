@@ -1,6 +1,6 @@
 # Advait Rao
 
-### This is my Peronsal Website and Portfolio
+### This is my Personal Website and Portfolio
 
 > https://advait-rao.netlify.app/
 
@@ -16,3 +16,5 @@ This is what I'm the most proud of
 -   `#950740` - Pink for the title
 -   `#101B2B` - Lighter blue for cards
 -   `#4E4E50` - Grey
+
+#### GNU General Public License v3.0
