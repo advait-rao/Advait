@@ -66,7 +66,7 @@ const projects = [
         image: bookCatalogue,
         builtWith: 'Python (Flask, Jinja) HTML, Bootstrap',
         demoLink: null,
-        githubLink: 'https://github.com/advait-rao/GuessWho',
+        githubLink: 'https://github.com/advait-rao/book-catalogue',
     },
 ];
 
