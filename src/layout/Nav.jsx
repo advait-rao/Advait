@@ -15,6 +15,7 @@ export const Nav = () => {
                 position: 'fixed',
                 marginTop: '2rem',
                 marginLeft: '93%',
+                marginTop: '10%',
             }}
         >
             <Box
