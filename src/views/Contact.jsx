@@ -1,5 +1,4 @@
 import { Box } from '@mui/system';
-import PropTypes from 'prop-types';
 
 const About = (props) => {
     return (

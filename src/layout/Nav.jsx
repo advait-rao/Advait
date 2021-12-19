@@ -14,7 +14,7 @@ export const Nav = () => {
                 display: 'flex',
                 position: 'fixed',
                 marginTop: '2rem',
-                marginLeft: '94%',
+                marginLeft: '93%',
             }}
         >
             <Box
@@ -37,19 +37,29 @@ export const Nav = () => {
                     spacing={2}
                 >
                     <li className='Nav' style={{ listStyleType: 'none' }}>
-                        <a href='#home'>Home</a>
+                        <a href='#home' className='navlink'>
+                            Home
+                        </a>
                     </li>
                     <li className='Nav' style={{ listStyleType: 'none' }}>
-                        <a href='#about'>About</a>
+                        <a href='#about' className='navlink'>
+                            About
+                        </a>
                     </li>
                     <li className='Nav' style={{ listStyleType: 'none' }}>
-                        <a href='#projects'>Projects</a>
+                        <a href='#projects' className='navlink'>
+                            Projects
+                        </a>
                     </li>
                     <li className='Nav' style={{ listStyleType: 'none' }}>
-                        <a href='#resume'>Resume</a>
+                        <a href='#resume' className='navlink'>
+                            Resume
+                        </a>
                     </li>
                     <li className='Nav' style={{ listStyleType: 'none' }}>
-                        <a href='#contact'>Contact</a>
+                        <a href='#contact' className='navlink'>
+                            Contact
+                        </a>
                     </li>
                 </Stack>
             </Box>

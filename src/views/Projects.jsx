@@ -1,12 +1,15 @@
+import { Container, Grid } from '@mui/material';
 import { Box } from '@mui/system';
-import PropTypes from 'prop-types';
-import ArrowDown from '../components/ArrowDown';
+import HeaderPaper from '../components/HeaderPaper';
+import ProjectCard from '../components/ProjectCard';
+import bookCatalogue from '../media/bookCatalogue.png';
+import githubFinder from '../media/githubFinder.png';
+import guessWho from '../media/guessWho.png';
 
 const Projects = (props) => {
     return (
         <Box
             sx={{
-                height: '100vh',
                 backgroundColor: '#061324',
                 display: 'flex',
                 alignItems: 'center',
@@ -14,40 +17,58 @@ const Projects = (props) => {
             }}
             id='projects'
         >
-            <Box
-                sx={{
-                    marginTop: '5vh',
-                    fontSize: 64,
-                    fontWeight: 'bold',
-                    color: '#061324',
-                    backgroundColor: '#950740',
-                    borderRadius: 1,
-                    justifyContent: 'Center',
-                }}
-            >
-                Stuff I've Made
-            </Box>
-            <Box
-                sx={{
-                    marginTop: '2vh',
-                    padding: '2rem',
-                    display: 'flex',
-                    fontSize: 24,
-                    height: 'auto',
-                    fontWeight: 'regular',
-                    width: '50%',
-                    backgroundColor: '#101B2B',
-                    borderRadius: 2,
-                    justifyContent: 'space-evenly',
-                    alignItems: 'center',
-                }}
-            >
-                Projects go here
-            </Box>
-            <ArrowDown link='#resume' />
+            <Container className='pageContainer'>
+                <HeaderPaper header='Projects' />
+                <Box sx={{ flexGrow: 1, marginTop: '2vh' }}>
+                    <Grid container spacing={4}>
+                        {projects.map((project) => (
+                            <Grid item xs>
+                                <ProjectCard
+                                    title={project.title}
+                                    description={project.description}
+                                    image={project.image}
+                                    builtWith={project.builtWith}
+                                    demoLink={project.demoLink}
+                                    githubLink={project.githubLink}
+                                />
+                            </Grid>
+                        ))}
+                    </Grid>
+                </Box>
+            </Container>
         </Box>
     );
 };
+
+const projects = [
+    {
+        title: 'GitHub Finder',
+        description:
+            'A user interface that allows you to search for Github users and view user data. It uses the GitHub API to access user data and Context API for state management.',
+        image: githubFinder,
+        builtWith: 'React, HTML, CSS',
+        demoLink: 'https://github-finder-advait.netlify.app/',
+        githubLink: 'https://github.com/advait-rao/github-finder',
+    },
+    {
+        title: 'Guess Who',
+        description:
+            "Simulates thousands of games of the board game 'Guess Who?' and tests out different playing strategies by having them play against each other. I formulated strategies using Decision Theory, Greedy Algorithms and Dichotomic Searching.",
+        image: guessWho,
+        builtWith: 'Python (and math)',
+        demoLink: null,
+        githubLink: 'https://github.com/advait-rao/GuessWho',
+    },
+    {
+        title: 'Book Catalogue',
+        description:
+            'A Book Catalogue similar to GoodReads. It allows the user to view books based on various filters, review them and add them to favourites. Book and author data are stored locally.',
+        image: bookCatalogue,
+        builtWith: 'Python (Flask, Jinja) HTML, Bootstrap',
+        demoLink: null,
+        githubLink: 'https://github.com/advait-rao/GuessWho',
+    },
+];
 
 Projects.propTypes = {};
 

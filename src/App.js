@@ -1,5 +1,4 @@
 import { Box } from '@mui/system';
-import { Routes, Route, Link } from 'react-router-dom';
 import Footer from './layout/Footer';
 import Nav from './layout/Nav';
 import Home from './views/Home';

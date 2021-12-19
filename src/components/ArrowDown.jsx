@@ -17,7 +17,7 @@ const ArrowDown = (props) => {
                 <a href={props.link}>
                     <KeyboardArrowDown
                         className='bounce'
-                        sx={{ fontSize: '15vh', color: '#950740' }}
+                        sx={{ fontSize: '12vh', color: '#950740' }}
                     />
                 </a>
             </Box>

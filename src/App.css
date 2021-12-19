@@ -27,6 +27,12 @@
     }
 }
 
+.pageContainer {
+    margin-bottom: 15vh;
+}
+.icon {
+    color: #4e4e50;
+}
 .icon:hover {
     color: #950740;
 }
@@ -34,18 +40,19 @@
 .Nav:hover {
     color: #ffffff;
     font-weight: bolder;
+    transform: scale(1.05);
 }
 
-a:link {
+.navlink {
+    color: #950740;
+}
+.navlink:link {
     text-decoration: none;
-    color: #6f2232;
 }
 
-a:visited {
-    text-decoration: none;
-    color: #6f2232;
-}
-
-a:hover {
+.navlink:hover {
     color: #ffffff;
+}
+.accent {
+    color: #950740;
 }

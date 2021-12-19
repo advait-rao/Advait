@@ -1,8 +1,8 @@
 import { Box } from '@mui/system';
+import { Container, IconButton } from '@mui/material';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import EmailRoundedIcon from '@mui/icons-material/EmailRounded';
-import PropTypes from 'prop-types';
 import ArrowDown from '../components/ArrowDown';
 
 const Home = (props) => {
@@ -15,73 +15,67 @@ const Home = (props) => {
             }}
             id='home'
         >
-            <Box
-                sx={{
-                    color: '#950740',
-                    fontSize: '13vh',
-                    paddingLeft: '17vw',
-                    paddingTop: '20vh',
-                    fontWeight: 'Bold',
-                }}
-            >
-                Advait Rao
-            </Box>
-            <Box
-                sx={{
-                    color: '#FFFFFF',
-                    fontSize: '3vh',
-                    paddingLeft: '17vw',
-                    paddingTop: '1rem',
-                    fontFamily: 'Source Code Pro',
-                }}
-            >
-                Software Engineer<i className='blink'>_</i>
-            </Box>
-            <Box
-                display={'flex'}
-                flexDirection={'row'}
-                color={'#4E4E50'}
-                paddingLeft={'17vw'}
-                paddingTop={'2rem'}
-            >
-                <a
-                    href='https://github.com/advait-rao'
-                    target='_blank'
-                    rel='noreferrer'
-                    style={{ color: '#4E4E50' }}
-                >
-                    <GitHubIcon
-                        className='icon'
-                        fontSize='large'
-                        sx={{
-                            marginRight: '4rem',
-                        }}
-                    />
-                </a>
-                <a
-                    href='https://www.linkedin.com/in/advaitrao/'
-                    target='_blank'
-                    rel='noreferrer'
-                    style={{ color: '#4E4E50' }}
-                >
-                    <LinkedInIcon
-                        className='icon'
-                        fontSize='large'
-                        sx={{
-                            marginRight: '4rem',
-                        }}
-                    />
-                </a>
-
-                <EmailRoundedIcon
-                    className='icon'
-                    fontSize='large'
+            <Container>
+                <Box
                     sx={{
-                        marginRight: '4rem',
+                        color: '#950740',
+                        fontSize: '13vh',
+                        paddingTop: '20vh',
+                        fontWeight: 'Bold',
                     }}
-                />
-            </Box>
-            <ArrowDown link='#about' mt='20vh' />
+                >
+                    Advait Rao
+                </Box>
+                <Box
+                    sx={{
+                        color: '#FFFFFF',
+                        fontSize: '3vh',
+                        paddingTop: '1rem',
+                        fontFamily: 'Source Code Pro',
+                    }}
+                >
+                    Software Engineer<i className='blink'>_</i>
+                </Box>
+                <Box display={'flex'} flexDirection={'row'} paddingTop={'2rem'}>
+                    <IconButton
+                        href='https://github.com/advait-rao'
+                        target='_blank'
+                        rel='noreferrer'
+                    >
+                        <GitHubIcon
+                            className='icon'
+                            fontSize='large'
+                            sx={{
+                                marginRight: '4rem',
+                            }}
+                        />
+                    </IconButton>
+
+                    <IconButton
+                        href='https://www.linkedin.com/in/advaitrao/'
+                        target='_blank'
+                        rel='noreferrer'
+                    >
+                        <LinkedInIcon
+                            className='icon'
+                            fontSize='large'
+                            sx={{
+                                marginRight: '4rem',
+                            }}
+                        />
+                    </IconButton>
+                    <IconButton href='#contact'>
+                        <EmailRoundedIcon
+                            className='icon'
+                            fontSize='large'
+                            sx={{
+                                marginRight: '4rem',
+                            }}
+                        />
+                    </IconButton>
+                </Box>
+                <ArrowDown link='#about' mt='20vh' />
+            </Container>
         </Box>
     );
 };
