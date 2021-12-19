@@ -24,7 +24,7 @@ const ProjectCard = (props) => {
             <CardMedia
                 component='img'
                 alt={props.title}
-                height='320'
+                height='auto'
                 image={props.image}
             />
             <CardContent>
@@ -34,6 +34,7 @@ const ProjectCard = (props) => {
                     component='div'
                     color='#FFFFFF'
                     fontFamily={'Source Code Pro'}
+                    fontWeight={'bold'}
                 >
                     {props.title}
                 </Typography>
