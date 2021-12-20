@@ -13,7 +13,6 @@ export const Nav = () => {
                 backgroundColor: '#061324',
                 display: 'flex',
                 position: 'fixed',
-                marginTop: '2rem',
                 marginLeft: '93%',
                 marginTop: '10%',
             }}
@@ -50,11 +49,6 @@ export const Nav = () => {
                     <li className='Nav' style={{ listStyleType: 'none' }}>
                         <a href='#projects' className='navlink'>
                             Projects
-                        </a>
-                    </li>
-                    <li className='Nav' style={{ listStyleType: 'none' }}>
-                        <a href='#resume' className='navlink'>
-                            Resume
                         </a>
                     </li>
                     <li className='Nav' style={{ listStyleType: 'none' }}>

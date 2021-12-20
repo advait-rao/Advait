@@ -1,10 +1,9 @@
 import { Box } from '@mui/system';
-import Footer from './layout/Footer';
 import Nav from './layout/Nav';
+import Footer from './layout/Footer';
 import Home from './views/Home';
 import About from './views/About';
 import Contact from './views/Contact';
-import Resume from './views/Resume';
 import Projects from './views/Projects';
 import './App.css';
 
@@ -19,7 +18,6 @@ function App() {
             <Home />
             <About />
             <Projects />
-            <Resume />
             <Contact />
             <Footer />
         </Box>
