@@ -6,6 +6,7 @@ import {
     CardContent,
     CardActions,
     IconButton,
+    Paper,
 } from '@mui/material';
 import { Typography } from '@mui/material';
 import GitHubIcon from '@mui/icons-material/GitHub';
@@ -14,6 +15,7 @@ import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 const ProjectCard = (props) => {
     return (
         <Card
+            className='pc'
             elevation={2}
             sx={{
                 minHeight: '30vh',

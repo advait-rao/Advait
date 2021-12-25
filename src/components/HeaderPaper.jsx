@@ -1,21 +1,22 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Paper } from '@mui/material';
+import { Paper, Typography } from '@mui/material';
 
 const HeaderPaper = (props) => {
     return (
         <Paper
+            className='hr'
             elevation={6}
             sx={{
-                marginTop: '5vh',
-                fontSize: 64,
-                fontWeight: 'bold',
+                marginTop: '8vh',
                 color: '#061324',
                 backgroundColor: '#950740',
-                paddingLeft: '2rem',
+                paddingLeft: '1rem',
             }}
         >
-            {props.header}
+            <Typography variant='h2' fontFamily='Sora' fontWeight={'bold'}>
+                {props.header}
+            </Typography>
         </Paper>
     );
 };

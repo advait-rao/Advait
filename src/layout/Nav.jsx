@@ -8,28 +8,29 @@ export const Nav = () => {
         <Box
             className='navbar'
             sx={{
-                width: 'auto',
+                width: '100%',
                 minHeight: '5vh',
                 backgroundColor: '#061324',
                 display: 'flex',
+                flexDirection: 'row',
                 position: 'fixed',
-                marginLeft: '93%',
-                marginTop: '10%',
             }}
         >
             <Box
                 sx={{
                     paddingRight: '2rem',
                     color: '#6F2232',
-                    fontSize: 20,
                     fontFamily: 'Source Code Pro',
+                    fontSize: '2.1vh',
+                    paddingTop: '1rem',
+                    paddingBottom: '0.5rem',
                 }}
             >
                 <Stack
-                    direction='column'
+                    direction='row'
                     divider={
                         <Divider
-                            orientation='horizontal'
+                            orientation='vertical'
                             flexItem
                             color='#4E4E50'
                         />

@@ -24,6 +24,7 @@ const Projects = (props) => {
                         {projects.map((project) => (
                             <Grid item xs>
                                 <ProjectCard
+                                    className='abc'
                                     title={project.title}
                                     description={project.description}
                                     image={project.image}

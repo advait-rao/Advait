@@ -1,9 +1,10 @@
 import { Box } from '@mui/system';
-import { Container, IconButton } from '@mui/material';
+import { Container, IconButton, Typography } from '@mui/material';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import EmailRoundedIcon from '@mui/icons-material/EmailRounded';
 import ArrowDown from '../components/ArrowDown';
+import Nav from '../layout/Nav';
 
 const Home = (props) => {
     return (
@@ -15,13 +16,14 @@ const Home = (props) => {
             }}
             id='home'
         >
-            <Container>
+            <Container className='pageContainer'>
+                <Nav />
                 <Box
                     sx={{
                         color: '#950740',
-                        fontSize: '13vh',
+                        fontSize: '12vh',
                         paddingTop: '20vh',
-                        fontWeight: 'Bold',
+                        fontWeight: 'bold',
                     }}
                 >
                     Advait Rao

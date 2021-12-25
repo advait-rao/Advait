@@ -55,7 +55,7 @@ const About = (props) => {
                                 />
                             }
                         >
-                            <Box display={'inline-flex'}>
+                            <Box display={'inline-flex'} className='cr'>
                                 <IconButton
                                     href='mailto:advaitr28@gmail.com'
                                     target='_blank'
@@ -73,13 +73,13 @@ const About = (props) => {
                                         href='mailto:advaitr28@gmail.com?subject=Getting%20in%20touch&body=Kia%20ora!%0D%0A%0D%0AI%20decided%20to%20contact%20you%20after%20going%20through%20your%20website.'
                                         target='_blank'
                                         rel='noopener noreferrer'
-                                        className='navlink'
+                                        className='navlink accent'
                                     >
                                         email
                                     </a>
                                 </p>
                             </Box>
-                            <Box display={'inline-flex'}>
+                            <Box display={'inline-flex'} className='cr'>
                                 <IconButton
                                     href='https://www.linkedin.com/in/advaitrao/'
                                     target='_blank'
@@ -103,7 +103,7 @@ const About = (props) => {
                                     </a>
                                 </p>
                             </Box>
-                            <Box display={'inline-flex'}>
+                            <Box display={'inline-flex'} className='cr'>
                                 <IconButton
                                     href='https://github.com/advait-rao'
                                     target='_blank'
@@ -127,7 +127,7 @@ const About = (props) => {
                                     </a>
                                 </p>
                             </Box>
-                            <Box display={'inline-flex'}>
+                            <Box display={'inline-flex'} className='cr'>
                                 <IconButton sx={{ marginRight: '1rem' }}>
                                     <AttachMoneyIcon
                                         fontSize='large'
