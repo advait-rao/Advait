@@ -11,7 +11,6 @@ const AboutCard = (props) => {
                 display: 'inline-flex',
                 backgroundColor: '#101B2B',
                 alignItems: 'center',
-                maxHeight: '163vh',
             }}
         >
             <Grid container spacing={0}>
