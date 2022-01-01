@@ -1,5 +1,5 @@
 import { Box } from '@mui/system';
-import { Container, IconButton, Typography } from '@mui/material';
+import { Container, IconButton } from '@mui/material';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import EmailRoundedIcon from '@mui/icons-material/EmailRounded';
@@ -10,7 +10,7 @@ const Home = (props) => {
     return (
         <Box
             sx={{
-                height: '95vh',
+                height: '100vh',
                 backgroundColor: '#061324',
                 flexDirection: 'column',
             }}

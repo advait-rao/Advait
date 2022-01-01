@@ -6,7 +6,6 @@ import {
     CardContent,
     CardActions,
     IconButton,
-    Paper,
 } from '@mui/material';
 import { Typography } from '@mui/material';
 import GitHubIcon from '@mui/icons-material/GitHub';

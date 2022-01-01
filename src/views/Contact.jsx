@@ -136,7 +136,7 @@ const About = (props) => {
                                 </IconButton>
                                 <p>
                                     Give me{' '}
-                                    <a href='' className='navlink'>
+                                    <a href='/' className='navlink'>
                                         #CashMoney
                                     </a>
                                 </p>
