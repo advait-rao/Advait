@@ -93,6 +93,7 @@
 
 .navlink {
     color: #950740;
+    font-weight: bold;
 }
 .navlink:link {
     text-decoration: none;

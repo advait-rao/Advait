@@ -34,6 +34,7 @@ const Home = (props) => {
                         fontSize: '3vh',
                         paddingTop: '1rem',
                         fontFamily: 'Source Code Pro',
+                        fontWeight: 'bold',
                     }}
                 >
                     Software Engineer<i className='blink'>_</i>
