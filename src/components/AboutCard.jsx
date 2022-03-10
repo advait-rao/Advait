@@ -47,7 +47,7 @@ const AboutCard = (props) => {
                         >
                             <p>
                                 Kia ora! <br />
-                                I'm Advait (Ad•vāi•t).
+                                I'm Advait! [ad•vāi•t]
                             </p>
                             <p>
                                 I'm a Computer Science and IT Management student
@@ -55,27 +55,30 @@ const AboutCard = (props) => {
                             </p>
                             <p>
                                 I'm proficient in{' '}
-                                <b className='accent'>Python</b> as I've used it
-                                for a few of my projects and I'm currently
-                                learning <b className='accent'>React</b> and{' '}
-                                <b className='accent'>C#</b> at Xero, where I'm
-                                an Intern Software Engineer. I'm also
-                                comfortable writing unit tests, and am learning
-                                about <b className='accent'>Mocking</b>,{' '}
-                                <b className='accent'>Autofixure</b> and{' '}
-                                <b className='accent'>React Testing Library</b>.
-                            </p>
-                            <p>
-                                I like to write and record songs, watch sports
-                                (cricket, formula1 and football) and make sigma
-                                male meme references. <br /> I also like going
-                                to the gym and making #gains.
-                            </p>
-                            <p>
-                                Jokes apart, I want my time here to be spent
-                                creating value and having a positive impact on
-                                the people I meet (and even the people I don't).{' '}
+                                <b className='accent'>Python</b>, and have
+                                experience working with{' '}
+                                <b className='accent'>React</b> and{' '}
+                                <b className='accent'>C#</b> at Xero, where I
+                                worked as an Intern Software Engineer in the App
+                                Marketplace Billing team. I'm also familiar with{' '}
+                                <b className='accent'>Unit Testing</b>,{' '}
+                                <b className='accent'>Mocking</b>,{' '}
+                                <b className='accent'>Fixtures</b> and{' '}
+                                <b className='accent'>Validation Libraries</b>.
                                 <br />
+                                Not to flex (well yes, kinda), but my team's
+                                average score in the Stuff Quiz went up by about
+                                two points during my time there.
+                            </p>
+                            <p>
+                                I enjoy making music, watching sports, lifting
+                                weights and making sigma male meme references. I
+                                wanted to be a musician for most of my teens.
+                            </p>
+                            <p>
+                                While I enjoy making jokes and being silly, I
+                                never lose sight of my goal. <br />
+                                I want to help people empower themselves. <br />
                                 Everything I do is to further this ambition.
                             </p>
                         </Typography>
