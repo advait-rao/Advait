@@ -4,6 +4,6 @@
 
 > https://advait-rao.netlify.app/
 
-I'm built this website with `React` and `Material UI`. It was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+I built this website with `React` and `Material UI`. It was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 #### GNU General Public License v3.0
