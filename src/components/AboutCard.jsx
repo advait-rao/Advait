@@ -1,6 +1,6 @@
 import React from 'react';
 import { Paper, Grid, Typography } from '@mui/material';
-import me from '../media/meCropped.jpg';
+import profilePicture from '../media/profilePicture.jpg';
 
 const AboutCard = (props) => {
     return (
@@ -22,7 +22,7 @@ const AboutCard = (props) => {
                     justifyContent='center'
                     padding='1rem'
                 >
-                    <img className='av' src={me} alt='me' />
+                    <img className='av' src={profilePicture} alt='me' />
                 </Grid>
                 <Grid
                     container
@@ -50,37 +50,37 @@ const AboutCard = (props) => {
                                 I'm Advait! [ad•vāi•t]
                             </p>
                             <p>
-                                I'm a Computer Science and IT Management student
-                                at the University of Auckland.
+                                I'm a Computer Science major at the University
+                                of Auckland.
                             </p>
                             <p>
                                 I'm proficient in{' '}
                                 <b className='accent'>Python</b>, and have
-                                experience working with{' '}
-                                <b className='accent'>React</b> and{' '}
-                                <b className='accent'>C#</b> at Xero, where I
-                                worked as an Intern Software Engineer in the App
-                                Marketplace Billing team. I'm also familiar with{' '}
+                                worked with <b className='accent'>React</b> and{' '}
+                                <b className='accent'>C#</b> at Xero. I worked
+                                there as a Software Engineering Intern in the
+                                Billing team for the App Marketplace. <br />I
+                                learnt about{' '}
                                 <b className='accent'>Unit Testing</b>,{' '}
                                 <b className='accent'>Mocking</b>,{' '}
                                 <b className='accent'>Fixtures</b> and{' '}
-                                <b className='accent'>Validation Libraries</b>.
-                                <br />
-                                Not to flex (well yes, kinda), but my team's
-                                average score in the Stuff Quiz went up by about
-                                two points during my time there.
+                                <b className='accent'>Validation Libraries</b>{' '}
+                                in <b className='accent'>.NET Core</b> while
+                                taking on Backend tickets. I also experimented
+                                with{' '}
+                                <b className='accent'>
+                                    Component Driven Development
+                                </b>{' '}
+                                using <b className='accent'>Storybook</b> while
+                                working on Frontend tickets.
                             </p>
                             <p>
-                                I enjoy making music, watching sports, lifting
-                                weights and making sigma male meme references. I
-                                wanted to be a musician for most of my teens.
+                                I enjoy playing the guitar, writing songs, and
+                                weight lifting, as well as keeping up with
+                                Cricket, F1 and Football. I like to think I'm a
+                                humble person when I'm not playing Table Tennis.
                             </p>
-                            <p>
-                                While I enjoy making jokes and being silly, I
-                                never lose sight of my goal. <br />
-                                I want to help people empower themselves. <br />
-                                Everything I do is to further this ambition.
-                            </p>
+                            <p></p>
                         </Typography>
                     </Paper>
                 </Grid>
