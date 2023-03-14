@@ -29,6 +29,7 @@
 
 .pageContainer {
     margin-bottom: 15vh;
+    max-width: 100%;
 }
 .icon {
     color: #4e4e50;

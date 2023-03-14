@@ -20,8 +20,8 @@ const Projects = (props) => {
         >
             <Container className='pageContainer'>
                 <HeaderPaper header='Projects' />
-                <Box sx={{ flexGrow: 1, marginTop: '2vh' }}>
-                    <Grid container spacing={4}>
+                <Box sx={{ marginTop: '2vh' }}>
+                    <Grid container spacing={2}>
                         {projects.map((project) => (
                             <Grid item xs>
                                 <ProjectCard
@@ -46,7 +46,7 @@ const projects = [
     {
         title: 'Grocerify',
         description:
-            'Grocerify is a Python application that reads your shopping list from Evernote and creates a Spotify playlist comprising of the items on your shopping list.',
+            "Grocerify is a Python application that reads your shopping list from Evernote and creates a Spotify playlist based on the items on your shopping list. The idea is to 'listen' to your shopping list. The app accesses your Spotify data to pick songs you haven't heard before and that you're likely to enjoy.",
         image: Grocerify,
         builtWith: 'Python',
         demoLink: null,
