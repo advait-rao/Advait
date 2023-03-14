@@ -5,6 +5,7 @@ import ProjectCard from '../components/ProjectCard';
 import bookCatalogue from '../media/bookCatalogue.png';
 import githubFinder from '../media/githubFinder.png';
 import guessWho from '../media/guessWho.png';
+import Grocerify from '../media/Grocerify.png';
 
 const Projects = (props) => {
     return (
@@ -43,13 +44,13 @@ const Projects = (props) => {
 
 const projects = [
     {
-        title: 'GitHub Finder',
+        title: 'Grocerify',
         description:
-            'A user interface that allows you to search for Github users and view user data. It uses the GitHub API to access user data and Context API for state management.',
-        image: githubFinder,
-        builtWith: 'React, HTML, CSS',
-        demoLink: 'https://github-finder-advait.netlify.app/',
-        githubLink: 'https://github.com/advait-rao/github-finder',
+            'Grocerify is a Python application that reads your shopping list from Evernote and creates a Spotify playlist comprising of the items on your shopping list.',
+        image: Grocerify,
+        builtWith: 'Python',
+        demoLink: null,
+        githubLink: 'https://github.com/advait-rao/Grocerify',
     },
     {
         title: 'Guess Who',
@@ -59,6 +60,15 @@ const projects = [
         builtWith: 'Python (and math)',
         demoLink: null,
         githubLink: 'https://github.com/advait-rao/GuessWho',
+    },
+    {
+        title: 'GitHub Finder',
+        description:
+            'A user interface that allows you to search for Github users and view user data. It uses the GitHub API to access user data and Context API for state management.',
+        image: githubFinder,
+        builtWith: 'React, HTML, CSS',
+        demoLink: 'https://github-finder-advait.netlify.app/',
+        githubLink: 'https://github.com/advait-rao/github-finder',
     },
     {
         title: 'Book Catalogue',

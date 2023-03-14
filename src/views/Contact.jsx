@@ -127,20 +127,6 @@ const About = (props) => {
                                     </a>
                                 </p>
                             </Box>
-                            <Box display={'inline-flex'} className='cr'>
-                                <IconButton sx={{ marginRight: '1rem' }}>
-                                    <AttachMoneyIcon
-                                        fontSize='large'
-                                        className='icon'
-                                    />
-                                </IconButton>
-                                <p>
-                                    Give me{' '}
-                                    <a href='/' className='navlink'>
-                                        #CashMoney
-                                    </a>
-                                </p>
-                            </Box>
                         </Stack>
                     </Typography>
                 </Paper>

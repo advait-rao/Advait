@@ -47,11 +47,11 @@ const AboutCard = (props) => {
                         >
                             <p>
                                 Kia ora! <br />
-                                I'm Advait! [ad•vāi•t]
+                                I'm Advait! It's pronounced <b>ād–vate</b>.
                             </p>
                             <p>
-                                I'm a Computer Science major at the University
-                                of Auckland.
+                                I'm a Computer Science and IT Management
+                                graduate from the University of Auckland.
                             </p>
                             <p>
                                 I'm proficient in{' '}
@@ -75,12 +75,12 @@ const AboutCard = (props) => {
                                 working on Frontend tickets.
                             </p>
                             <p>
-                                I enjoy playing the guitar, writing songs, and
-                                weight lifting, as well as keeping up with
-                                Cricket, F1 and Football. I like to think I'm a
-                                humble person when I'm not playing Table Tennis.
+                                I enjoy playing guitar, writing songs,{' '}
+                                <s>losing at</s> Chess, as well as keeping up
+                                with Cricket, F1 and Football. I like to think
+                                I'm a humble person when I'm not playing Table
+                                Tennis.
                             </p>
-                            <p></p>
                         </Typography>
                     </Paper>
                 </Grid>
