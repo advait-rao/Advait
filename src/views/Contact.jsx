@@ -114,7 +114,7 @@ const About = (props) => {
                                     />
                                 </IconButton>
                                 <p>
-                                    Checkout my{' '}
+                                    Check out my{' '}
                                     <a
                                         href='https://github.com/advait-rao'
                                         target='_blank'
