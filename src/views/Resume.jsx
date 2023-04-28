@@ -8,7 +8,6 @@ const Resume = (props) => {
         <Box
             sx={{
                 height: '100vh',
-                backgroundColor: '#061324',
                 display: 'flex',
                 alignItems: 'center',
                 flexDirection: 'column',

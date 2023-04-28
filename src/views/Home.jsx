@@ -4,7 +4,6 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import EmailRoundedIcon from '@mui/icons-material/EmailRounded';
 import ArrowDown from '../components/ArrowDown';
-import Nav from '../layout/Nav';
 
 const Home = (props) => {
     return (
@@ -17,7 +16,6 @@ const Home = (props) => {
             id='home'
         >
             <Container className='pageContainer'>
-                <Nav />
                 <Box
                     sx={{
                         color: '#950740',

@@ -18,7 +18,6 @@ const About = (props) => {
         <Box
             sx={{
                 minHeight: '80vh',
-                backgroundColor: '#061324',
                 display: 'flex',
                 flexDirection: 'column',
             }}

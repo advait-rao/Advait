@@ -7,7 +7,6 @@ const About = (props) => {
     return (
         <Box
             sx={{
-                backgroundColor: '#061324',
                 display: 'flex',
                 flexDirection: 'column',
             }}

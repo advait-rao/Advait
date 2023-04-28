@@ -47,7 +47,8 @@ const AboutCard = (props) => {
                         >
                             <p>
                                 Kia ora! <br />
-                                I'm Advait! It's pronounced <b>ād–vate</b>.
+                                I'm Advait! It's pronounced{' '}
+                                <b className='accent'>ād–vate</b>.
                             </p>
                             <p>
                                 I'm a Computer Science and IT Management

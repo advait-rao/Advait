@@ -1,4 +1,5 @@
 import { Box } from '@mui/system';
+import Nav from './layout/Nav';
 import Footer from './layout/Footer';
 import Home from './views/Home';
 import About from './views/About';
@@ -13,6 +14,7 @@ function App() {
                 minHeight: '100vh',
             }}
         >
+            <Nav />
             <Home />
             <About />
             <Projects />

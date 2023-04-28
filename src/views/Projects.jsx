@@ -11,7 +11,6 @@ const Projects = (props) => {
     return (
         <Box
             sx={{
-                backgroundColor: '#061324',
                 display: 'flex',
                 alignItems: 'center',
                 flexDirection: 'column',
