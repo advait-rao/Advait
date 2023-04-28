@@ -9,7 +9,6 @@ import {
 } from '@mui/material';
 import EmailRoundedIcon from '@mui/icons-material/EmailRounded';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import AttachMoneyIcon from '@mui/icons-material/AttachMoney';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import { Box } from '@mui/system';
 import HeaderPaper from '../components/HeaderPaper';
@@ -41,7 +40,7 @@ const About = (props) => {
                         variant='h6'
                         component='div'
                         color='#FFFFFF'
-                        fontFamily={'Source Code Pro'}
+                        fontFamily={'JetBrains Mono'}
                         fontWeight={'bold'}
                         width={'100%'}
                     >

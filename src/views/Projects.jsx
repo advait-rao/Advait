@@ -21,7 +21,7 @@ const Projects = (props) => {
             <Container className='pageContainer'>
                 <HeaderPaper header='Projects' />
                 <Box sx={{ marginTop: '2vh' }}>
-                    <Grid container spacing={2}>
+                    <Grid container spacing={6}>
                         {projects.map((project) => (
                             <Grid item xs>
                                 <ProjectCard

@@ -43,7 +43,7 @@ const AboutCard = (props) => {
                     >
                         <Typography
                             variant={'subtitle1'}
-                            fontFamily={'Source Code Pro'}
+                            fontFamily={'JetBrains Mono'}
                         >
                             <p>
                                 Kia ora! <br />

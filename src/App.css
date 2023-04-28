@@ -66,7 +66,6 @@
 
 .Nav:hover {
     color: #ffffff;
-    font-weight: bolder;
     animation: sink 0.3s;
 }
 
@@ -102,10 +101,7 @@
 
 .navlink:hover {
     color: #ffffff;
-}
-
-.cr:hover {
-    animation: bump 0.3s;
+    text-decoration: underline;
 }
 
 .hr:hover {

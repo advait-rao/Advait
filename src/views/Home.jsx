@@ -33,7 +33,7 @@ const Home = (props) => {
                         color: '#FFFFFF',
                         fontSize: '3vh',
                         paddingTop: '1rem',
-                        fontFamily: 'Source Code Pro',
+                        fontFamily: 'JetBrains Mono',
                         fontWeight: 'bold',
                     }}
                 >

@@ -28,13 +28,13 @@ const ProjectCard = (props) => {
                 height='auto'
                 image={props.image}
             />
-            <CardContent>
+            <CardContent sx={{ paddingBottom: 0 }}>
                 <Typography
                     gutterBottom
                     variant='h4'
                     component='div'
                     color='#FFFFFF'
-                    fontFamily={'Source Code Pro'}
+                    fontFamily={'JetBrains Mono'}
                     fontWeight={'bold'}
                 >
                     {props.title}
@@ -42,15 +42,15 @@ const ProjectCard = (props) => {
                 <Typography
                     variant='body1'
                     color='#FFFFFF'
-                    fontFamily={'Source Code Pro'}
+                    fontFamily={'JetBrains Mono'}
+                    gutterBottom
                 >
                     {props.description}
                 </Typography>
                 <Typography
                     variant='body1'
                     color='#FFFFFF'
-                    fontFamily='Source Code Pro'
-                    marginTop={'1rem'}
+                    fontFamily='JetBrains Mono'
                 >
                     <b className='accent'>Built With: </b>
                     {props.builtWith}
@@ -59,6 +59,7 @@ const ProjectCard = (props) => {
             <CardActions
                 sx={{
                     color: '#4E4E50',
+                    paddingTop: '0',
                 }}
             >
                 <IconButton

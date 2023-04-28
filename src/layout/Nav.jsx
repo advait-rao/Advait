@@ -8,7 +8,7 @@ export const Nav = () => {
         <Box
             className='navbar'
             sx={{
-                fontFamily: 'Source Code Pro',
+                fontFamily: 'JetBrains Mono',
                 fontSize: '2.1vh',
                 paddingTop: '1.5vh',
                 paddingBottom: '2vh',
