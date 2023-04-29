@@ -44,29 +44,29 @@ const projects = [
     {
         title: 'Grocerify',
         description:
-            "Grocerify is a Python application that reads your shopping list from Evernote and creates a Spotify playlist based on the items on your shopping list. The idea is to 'listen' to your shopping list. The app accesses your Spotify data to pick songs you haven't heard before and that you're likely to enjoy.",
+            "An application that reads your shopping list from Evernote and uses it to create a Spotify playlist, so you can 'listen' to your shopping list. The app takes into account your music preferences when picking songs.",
         image: Grocerify,
-        builtWith: 'Python',
+        builtWith: ['Python', 'APIs'],
         demoLink: null,
         githubLink: 'https://github.com/advait-rao/Grocerify',
-    },
-    {
-        title: 'Guess Who',
-        description:
-            "Simulates thousands of games of the board game 'Guess Who?' and tests out different playing strategies by having them play against each other. I formulated strategies using Decision Theory, Greedy Algorithms and Dichotomic Searching.",
-        image: guessWho,
-        builtWith: 'Python (and math)',
-        demoLink: null,
-        githubLink: 'https://github.com/advait-rao/GuessWho',
     },
     {
         title: 'GitHub Finder',
         description:
             'A user interface that allows you to search for Github users and view user data. It uses the GitHub API to access user data and Context API for state management.',
         image: githubFinder,
-        builtWith: 'React, HTML, CSS',
+        builtWith: ['React', 'CSS'],
         demoLink: 'https://github-finder-advait.netlify.app/',
         githubLink: 'https://github.com/advait-rao/github-finder',
+    },
+    {
+        title: 'Guess Who',
+        description:
+            "Simulates thousands of games of the board game 'Guess Who?' and tests out different playing strategies by having them play against each other. I formulated strategies using Decision Theory, Greedy Algorithms and Dichotomic Searching.",
+        image: guessWho,
+        builtWith: ['Python'],
+        demoLink: null,
+        githubLink: 'https://github.com/advait-rao/GuessWho',
     },
 ];
 

@@ -68,11 +68,11 @@ const AboutCard = (props) => {
                                 I enjoy playing guitar, writing{' '}
                                 <a
                                     href='https://soundcloud.com/advait_rao'
-                                    className='navlink'
+                                    className='link'
                                     target='_blank'
                                     rel='noreferrer'
                                 >
-                                    songs
+                                    <b>songs</b>
                                 </a>
                                 , <s>losing at</s> Chess, as well as keeping up
                                 with Cricket, F1 and Football. I like to think

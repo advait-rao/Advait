@@ -5,11 +5,10 @@ import {
     CardMedia,
     CardContent,
     CardActions,
-    IconButton,
+    Chip,
+    Stack,
 } from '@mui/material';
 import { Typography } from '@mui/material';
-import GitHubIcon from '@mui/icons-material/GitHub';
-import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 
 const ProjectCard = (props) => {
     return (
@@ -19,6 +18,7 @@ const ProjectCard = (props) => {
             sx={{
                 minHeight: '50vh',
                 minWidth: '22rem',
+                maxWidth: '100%',
                 backgroundColor: '#101B2B',
             }}
         >
@@ -37,7 +37,16 @@ const ProjectCard = (props) => {
                     fontFamily={'JetBrains Mono'}
                     fontWeight={'bold'}
                 >
-                    {props.title}
+                    <a
+                        href={
+                            props.demoLink ? props.demoLink : props.githubLink
+                        }
+                        target='_blank'
+                        rel='noreferrer'
+                        className='link'
+                    >
+                        {props.title}
+                    </a>
                 </Typography>
                 <Typography
                     variant='body1'
@@ -47,39 +56,29 @@ const ProjectCard = (props) => {
                 >
                     {props.description}
                 </Typography>
-                <Typography
-                    variant='body1'
-                    color='#FFFFFF'
-                    fontFamily='JetBrains Mono'
-                >
-                    <b className='accent'>Built With: </b>
-                    {props.builtWith}
-                </Typography>
             </CardContent>
             <CardActions
                 sx={{
                     color: '#4E4E50',
                     paddingTop: '0',
+                    flexDirection: 'row-reverse',
                 }}
             >
-                <IconButton
-                    target='_blank'
-                    rel='noreferrer'
-                    href={props.githubLink}
-                >
-                    <GitHubIcon className='icon' fontSize='medium' />
-                </IconButton>
-                {props.demoLink ? (
-                    <IconButton
-                        target='_blank'
-                        rel='noreferrer'
-                        href={props.demoLink}
-                    >
-                        <OpenInNewIcon className='icon' fontSize='medium' />
-                    </IconButton>
-                ) : (
-                    <></>
-                )}
+                {' '}
+                <Stack direction={'row'} spacing={1}>
+                    {props.builtWith.map((tool) => (
+                        <Chip
+                            color='error'
+                            label={tool}
+                            sx={{
+                                fontFamily: 'JetBrains Mono',
+                                fontWeight: 'bold',
+                                color: '#ffffff',
+                                backgroundColor: '#950740',
+                            }}
+                        />
+                    ))}
+                </Stack>
             </CardActions>
         </Card>
     );
@@ -89,9 +88,9 @@ ProjectCard.propTypes = {
     title: PropTypes.string,
     description: PropTypes.string,
     image: PropTypes.string,
-    builtWith: PropTypes.string,
+    builtWith: PropTypes.array,
     demoLink: PropTypes.string,
-    link: PropTypes.string,
+    githubLink: PropTypes.string,
 };
 
 export default ProjectCard;

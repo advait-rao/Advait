@@ -36,22 +36,22 @@ export const Nav = () => {
                 >
                     <li className='Nav' style={{ listStyleType: 'none' }}>
                         <a href='#home' className='navlink'>
-                            home
+                            Home
                         </a>
                     </li>
                     <li className='Nav' style={{ listStyleType: 'none' }}>
                         <a href='#about' className='navlink'>
-                            who
+                            About
                         </a>
                     </li>
                     <li className='Nav' style={{ listStyleType: 'none' }}>
                         <a href='#projects' className='navlink'>
-                            what
+                            Projects
                         </a>
                     </li>
                     <li className='Nav' style={{ listStyleType: 'none' }}>
                         <a href='#contact' className='navlink'>
-                            where
+                            Contact
                         </a>
                     </li>
                 </Stack>

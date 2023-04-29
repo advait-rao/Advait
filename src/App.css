@@ -78,23 +78,25 @@
     color: #950740;
 }
 
-.accent:hover {
-    -moz-animation: bounce 0.4s;
-    -webkit-animation: bounce 0.4s;
-    animation: bounce 0.4s;
-}
-
 @keyframes push {
     50% {
         transform: translate(-0.7rem);
     }
 }
 
+.link {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.link:hover {
+    color: #950740;
+    text-decoration: none;
+}
+
 .navlink {
     color: #950740;
     font-weight: bold;
-}
-.navlink:link {
     text-decoration: none;
 }
 
