@@ -62,7 +62,7 @@ const AboutCard = (props) => {
                                 was interning at Xero in 2022. <br />
                                 At the moment, I'm learning about{' '}
                                 <b className='accent'>AI</b> and{' '}
-                                <b className='accent'>Next.js</b>
+                                <b className='accent'>Next.js</b>.
                             </p>
                             <p>
                                 I enjoy playing guitar, writing{' '}
