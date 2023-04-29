@@ -2,7 +2,6 @@ import { Container, Grid } from '@mui/material';
 import { Box } from '@mui/system';
 import HeaderPaper from '../components/HeaderPaper';
 import ProjectCard from '../components/ProjectCard';
-import bookCatalogue from '../media/bookCatalogue.png';
 import githubFinder from '../media/githubFinder.png';
 import guessWho from '../media/guessWho.png';
 import Grocerify from '../media/Grocerify.png';
@@ -20,7 +19,7 @@ const Projects = (props) => {
             <Container className='pageContainer'>
                 <HeaderPaper header='Projects' />
                 <Box sx={{ marginTop: '2vh' }}>
-                    <Grid container spacing={6}>
+                    <Grid container spacing={2}>
                         {projects.map((project) => (
                             <Grid item xs>
                                 <ProjectCard
@@ -68,15 +67,6 @@ const projects = [
         builtWith: 'React, HTML, CSS',
         demoLink: 'https://github-finder-advait.netlify.app/',
         githubLink: 'https://github.com/advait-rao/github-finder',
-    },
-    {
-        title: 'Book Catalogue',
-        description:
-            'A Book Catalogue similar to GoodReads. It allows the user to view books based on various filters, review them and add them to favourites. Book and author data are stored locally.',
-        image: bookCatalogue,
-        builtWith: 'Python (Flask, Jinja) HTML, Bootstrap',
-        demoLink: null,
-        githubLink: 'https://github.com/advait-rao/book-catalogue',
     },
 ];
 

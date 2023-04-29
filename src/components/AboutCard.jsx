@@ -58,26 +58,23 @@ const AboutCard = (props) => {
                                 I'm proficient in{' '}
                                 <b className='accent'>Python</b>, and have
                                 worked with <b className='accent'>React</b> and{' '}
-                                <b className='accent'>C#</b> at Xero. I worked
-                                there as a Software Engineering Intern in the
-                                Billing team for the App Marketplace. <br />I
-                                learnt about{' '}
-                                <b className='accent'>Unit Testing</b>,{' '}
-                                <b className='accent'>Mocking</b>,{' '}
-                                <b className='accent'>Fixtures</b> and{' '}
-                                <b className='accent'>Validation Libraries</b>{' '}
-                                in <b className='accent'>.NET Core</b> while
-                                taking on Backend tickets. I also experimented
-                                with{' '}
-                                <b className='accent'>
-                                    Component Driven Development
-                                </b>{' '}
-                                using <b className='accent'>Storybook</b> while
-                                working on Frontend tickets.
+                                <b className='accent'>ASP .NET Core</b> when I
+                                was interning at Xero in 2022. <br />
+                                At the moment, I'm learning about{' '}
+                                <b className='accent'>AI</b> and{' '}
+                                <b className='accent'>Next.js</b>
                             </p>
                             <p>
-                                I enjoy playing guitar, writing songs,{' '}
-                                <s>losing at</s> Chess, as well as keeping up
+                                I enjoy playing guitar, writing{' '}
+                                <a
+                                    href='https://soundcloud.com/advait_rao'
+                                    className='navlink'
+                                    target='_blank'
+                                    rel='noreferrer'
+                                >
+                                    songs
+                                </a>
+                                , <s>losing at</s> Chess, as well as keeping up
                                 with Cricket, F1 and Football. I like to think
                                 I'm a humble person when I'm not playing Table
                                 Tennis.

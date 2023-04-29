@@ -10,7 +10,7 @@ export const Nav = () => {
             className='navbar'
             sx={{
                 fontFamily: 'JetBrains Mono',
-                fontSize: '2.1vh',
+                fontSize: '2vh',
                 paddingTop: '1.5vh',
                 backgroundColor: '#061324',
                 display: 'flex',

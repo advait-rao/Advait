@@ -18,7 +18,7 @@ const ProjectCard = (props) => {
             elevation={2}
             sx={{
                 minHeight: '50vh',
-                width: '22rem',
+                minWidth: '22rem',
                 backgroundColor: '#101B2B',
             }}
         >
