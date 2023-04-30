@@ -55,7 +55,7 @@ const projects = [
         description:
             'A user interface that allows you to search for Github users and view user data. It uses the GitHub API to access user data and Context API for state management.',
         image: githubFinder,
-        builtWith: ['React', 'CSS'],
+        builtWith: ['React', 'APIs'],
         demoLink: 'https://github-finder-advait.netlify.app/',
         githubLink: 'https://github.com/advait-rao/github-finder',
     },
@@ -64,7 +64,7 @@ const projects = [
         description:
             "Simulates thousands of games of the board game 'Guess Who?' and tests out different playing strategies by having them play against each other. I formulated strategies using Decision Theory, Greedy Algorithms and Dichotomic Searching.",
         image: guessWho,
-        builtWith: ['Python'],
+        builtWith: ['Python', 'Algorithms'],
         demoLink: null,
         githubLink: 'https://github.com/advait-rao/GuessWho',
     },

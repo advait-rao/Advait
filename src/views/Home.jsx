@@ -10,7 +10,6 @@ const Home = (props) => {
         <Box
             sx={{
                 height: '100vh',
-                backgroundColor: '#061324',
                 flexDirection: 'column',
             }}
             id='home'

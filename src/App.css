@@ -49,12 +49,12 @@
 }
 
 .pc:hover {
-    animation: zoom 0.3s ease-in-out;
+    animation: zoom 0.2s ease-in-out;
 }
 
 @keyframes zoom {
     50% {
-        transform: scale(1.03);
+        transform: scale(1.02);
     }
 }
 
