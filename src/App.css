@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 .bounce {
     -moz-animation: bounce 2s infinite;
     -webkit-animation: bounce 2s infinite;
