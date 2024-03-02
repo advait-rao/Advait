@@ -1,6 +1,6 @@
 import React from 'react';
 import { Paper, Grid, Typography } from '@mui/material';
-import profilePicture from '../media/profilePicture.jpg';
+import profilePicture from '../media/pfp.png';
 
 const AboutCard = (props) => {
     return (
@@ -48,21 +48,13 @@ const AboutCard = (props) => {
                             <p>
                                 Kia ora! <br />
                                 I'm Advait! It's pronounced{' '}
-                                <b className='accent'>ād–vate</b>.
+                                <b className='accent'>ād–vay-t</b>.
                             </p>
                             <p>
-                                I'm a Computer Science and IT Management
-                                graduate from the University of Auckland.
-                            </p>
-                            <p>
-                                I'm proficient in{' '}
-                                <b className='accent'>Python</b>, and have
-                                worked with <b className='accent'>React</b> and{' '}
-                                <b className='accent'>ASP .NET Core</b> when I
-                                was interning at Xero in 2022. <br />
-                                At the moment, I'm learning about{' '}
-                                <b className='accent'>AI</b> and{' '}
-                                <b className='accent'>Next.js</b>.
+                                I'm a Graduate Software Engineer at{' '}
+                                <b className='accent'>Xero</b>, where I work on
+                                the backend of Subscriptions and Billing for the
+                                Xero product.
                             </p>
                             <p>
                                 I enjoy playing guitar, writing{' '}
@@ -74,10 +66,9 @@ const AboutCard = (props) => {
                                 >
                                     <b>songs</b>
                                 </a>
-                                , <s>losing at</s> Chess, as well as keeping up
-                                with Cricket, F1 and Football. I like to think
-                                I'm a humble person when I'm not playing Table
-                                Tennis.
+                                , and <s>losing at</s> Chess. I also enjoy
+                                reading about history, science, wildlife and
+                                sci-fi.
                             </p>
                         </Typography>
                     </Paper>
