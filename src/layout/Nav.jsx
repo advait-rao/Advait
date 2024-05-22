@@ -41,17 +41,17 @@ export const Nav = () => {
                     </li>
                     <li className='Nav' style={{ listStyleType: 'none' }}>
                         <a href='#about' className='navlink'>
-                            About
+                            Who
                         </a>
                     </li>
                     <li className='Nav' style={{ listStyleType: 'none' }}>
                         <a href='#projects' className='navlink'>
-                            Projects
+                            What
                         </a>
                     </li>
                     <li className='Nav' style={{ listStyleType: 'none' }}>
                         <a href='#contact' className='navlink'>
-                            Contact
+                            Where
                         </a>
                     </li>
                 </Stack>
