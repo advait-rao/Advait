@@ -1,6 +1,6 @@
 import React from 'react';
 import { Paper, Grid, Typography } from '@mui/material';
-import profilePicture from '../media/pfp.png';
+import profilePicture from '../media/profilePicture.jpg';
 
 const AboutCard = (props) => {
     return (
@@ -20,7 +20,7 @@ const AboutCard = (props) => {
                     direction='column'
                     alignItems='center'
                     justifyContent='center'
-                    padding='1rem'
+                    padding='4rem'
                 >
                     <img className='av' src={profilePicture} alt='me' />
                 </Grid>
@@ -44,17 +44,20 @@ const AboutCard = (props) => {
                         <Typography
                             variant={'subtitle1'}
                             fontFamily={'JetBrains Mono'}
+                            fontSize={'medium'}
                         >
                             <p>
                                 Kia ora! <br />
-                                I'm Advait! It's pronounced{' '}
-                                <b className='accent'>ād–vay-t</b>.
+                                I'm Advait!
+                                <i>
+                                    <b className='accent'> [ād–v8]</b>
+                                </i>
                             </p>
                             <p>
                                 I'm a Graduate Software Engineer at{' '}
-                                <b className='accent'>Xero</b>, where I work on
-                                the backend of Subscriptions and Billing for the
-                                Xero product.
+                                <b className='accent'>Xero</b>, where I use my
+                                skills to empower business owners around the
+                                world.
                             </p>
                             <p>
                                 I enjoy playing guitar, writing{' '}

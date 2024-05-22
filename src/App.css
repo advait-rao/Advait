@@ -39,7 +39,6 @@ html {
 }
 .icon:hover {
     color: #950740;
-    animation: rotate 0.8s ease-in-out;
 }
 
 .av {
@@ -47,44 +46,13 @@ html {
     max-width: 90%;
     min-width: 15rem;
 }
-.av:hover {
-    animation: zoom 0.3s ease-in-out;
-}
-
-.pc:hover {
-    animation: zoom 0.2s ease-in-out;
-}
-
-@keyframes zoom {
-    50% {
-        transform: scale(1.02);
-    }
-}
-
-@keyframes rotate {
-    100% {
-        transform: rotate(720deg);
-    }
-}
 
 .Nav:hover {
     color: #ffffff;
 }
 
-@keyframes sink {
-    50% {
-        transform: translateY(0.4rem);
-    }
-}
-
 .accent {
     color: #950740;
-}
-
-@keyframes push {
-    50% {
-        transform: translate(-0.7rem);
-    }
 }
 
 .link {
@@ -106,14 +74,4 @@ html {
 .navlink:hover {
     color: #ffffff;
     text-decoration: underline;
-}
-
-.hr:hover {
-    animation: bump 0.3s;
-}
-
-@keyframes bump {
-    50% {
-        transform: translateX(1rem);
-    }
 }

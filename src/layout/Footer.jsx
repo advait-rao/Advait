@@ -13,7 +13,7 @@ export const Footer = () => {
                 alignItems: 'center',
             }}
         >
-            © Advait Rao 2023
+            © Advait Rao 2024
         </Box>
     );
 };
