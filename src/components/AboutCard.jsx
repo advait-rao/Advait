@@ -56,8 +56,8 @@ const AboutCard = (props) => {
                             <p>
                                 I'm a Graduate Software Engineer at{' '}
                                 <b className='accent'>Xero</b>, where I use my
-                                skills to empower business owners around the
-                                world.
+                                skills to help small businesses thrive
+                                worldwide.
                             </p>
                             <p>
                                 I enjoy playing guitar, writing{' '}
